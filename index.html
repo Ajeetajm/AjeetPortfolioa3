@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajeet Portfolio </title>
+    <link rel="stylesheet" href="Ama.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <div id="header">
+     <div class="container">
+        <nav>
+            <h1>Ajm.</h1>
+            <!-- <img src="images/logo.png" alt="" class="logo"> -->
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-regular fa-circle-xmark" id="hide" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars " id="hide" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software Developer</p>
+            <h1>Hi,I'm <span>Ajeet Kumar</span> <br>From India</h1>
+        </div>
+     </div>
+   </div>
+                        <!-- About -->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+           <div class="about-col-1">
+            <img src="aj1.jpg" alt="" srcset="">
+           </div> 
+           <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              My Name is Ajeet Kumar.I am a Java Developer and Web Developer.I work on both Frontend And Backend. 
+              Love to Code.
+            </p>
+
+            <div class="tab-title">
+                <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-link"  onclick="opentab('Experience')">Experience</p>
+                <p class="tab-link"  onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab " id="skills">
+                <ul>
+                    <li><span>JAVA DEVELOPER</span> <BR></BR>Backend And Frontend Developer</li>
+                    <li><span>WEB DEVELOPMENT</span> <BR></BR>Backend And Frontend Developer</li>
+                    <li><span>SQL DEVELOPMENT</span> <BR></BR>Oracle SQL Developer</li>
+            </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+                <ul>
+                    <li><span>2023-Current</span> <BR></BR>Backend And Frontend Developer</li>
+                    <li><span>2021-2023</span> <BR></BR>Backend And Frontend Developer Porject</li>
+                    <li><span>2020-2021</span> <BR></BR>WebSite Developer</li>
+            </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2019-2023</span> <BR></BR>College</li>
+                    <li><span>2017-2019</span> <BR></BR>College</li>
+                    
+            </ul>
+            </div>
+           </div> 
+        </div>
+    </div>
+   </div>
+                        <!-- Services -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+           <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>Web Development Using HTML,CSS,JavaScript.
+                <br>
+                E-commerce Website,Portfolio,Company Website,Landing Page.
+            </p>
+            <a href="#">Learn more</a>
+            
+           </div> 
+           <div>
+            <i class="fa-brands fa-java"></i>
+            <h2>JAVA Development</h2>
+            <p>Writing Code Using JAVA <br>
+            Making software Using JAVA</p>
+            <a href="#">Learn more</a>
+            
+           </div> 
+           <div>
+            <i class="fa-solid fa-laptop-code"></i>
+            <h2>Backend Development</h2>
+            <p>Writing Backend Using JAVA AND JavaScript
+                <br>
+                JAVA And JavaScript Backend Developer
+            </p>
+            <a href="#">Learn more</a>
+            
+           </div> 
+        </div>
+    </div>
+</div>
+
+                      <!-- Portfolio -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png" alt="" srcset="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connect you to yhe talented pepole around the world Downlod it from play store</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png" alt="" srcset="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connect you to yhe talented pepole around the world Downlod it from play store</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png" alt="" srcset="">
+                <div class="layer">
+                    <h3>Online Shoping App</h3>
+                    <p>The app connect you to yhe talented pepole around the world Downlod it from play store</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+                            <!-- contact -->
+
+<div class="contact" id="contact">
+<div class="container">
+    <div class="row">
+<div class="contact-left">
+    <h1 class="sub-title">Contact Me</h1>
+    <p><i class="fa-solid fa-paper-plane"></i>ajeetkumarajm@gmail.com</p>
+    <div class="social-icons">
+       <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <a href="ajeet newresume.pdf" class="btn btn2">Download CV</a>
+</div>
+<div class="contact-right">
+    <form action="">
+        <input type="text" name="Name" placeholder="Your name" required>
+       <input type="email" name="email" id="" placeholder="Your Email" required>
+       <textarea name="Message" id="" cols="30" rows="6" placeholder="Your Message"></textarea>
+       <button type="submit" class="btn btn2">Submit</button>
+    </form>
+</div>
+    </div>
+</div>
+<div class="copyright">
+    <p>copyright <i class="fa-regular fa-copyright"></i> Ajm. Made with <i class="fa-solid fa-heart" id="lal"></i> by Ease Tutorials</p>
+</div>
+</div>
+
+
+
+   <script>
+    var tablinks= document.getElementsByClassName("tab-link");
+    var tabcontenets= document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tabl of tablinks)
+        {
+            tabl.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontenets)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script>
+
+   <script>
+    var sidemenu=document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+   </script>
+</body>
+</html>
